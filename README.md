@@ -4,7 +4,7 @@ Node.js [Hyper](https://hyper.co) authentication using [socket.io](https://socke
 
 Especially usefull for chrome extensions that can't retrive a hardware ID.
 
-Additionally, it allows selected discord users to see the current number of members with  the application open at that point.
+Additionally, it allows selected discord users (owners, admins etc. Configurable list of Discord user IDs in `/middleware/authenticate.js`) to see the amount of active, signed-in users.
 
 ## Usage
 The file `/client.js` and its contents are for your Node.js application and so can be removed from the rest of the code that is to be hosted on a server.
