@@ -2,6 +2,8 @@
 
 Node.js [Hyper](https://hyper.co) authentication using [socket.io](https://socket.io/) to bind keys to one application instance at a time.
 
+Especially usefull for chrome extensions that can't retrive a hardware ID.
+
 Additionally, it allows selected discord users to see the current number of members with  the application open at that point.
 
 ## Usage
